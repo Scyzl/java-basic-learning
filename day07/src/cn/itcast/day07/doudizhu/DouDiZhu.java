@@ -1,9 +1,11 @@
 package cn.itcast.day07.doudizhu;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
+/**
+ * 简单版本的斗地主发牌看牌demo
+ */
 public class DouDiZhu {
     public static void main(String[] args) {
         ArrayList<String> poker = new ArrayList<>();    // 扑克牌集合
@@ -32,8 +34,7 @@ public class DouDiZhu {
 
 //        发牌
         for (int i = 0; i < poker.size(); i++) {
-            String p = new String();
-            p = poker.get(i);
+            String p = poker.get(i);
 
             if (i < 51) {
                 switch (i % 3) {
