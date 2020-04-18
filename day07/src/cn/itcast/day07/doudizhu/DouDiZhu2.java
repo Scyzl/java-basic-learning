@@ -66,6 +66,6 @@ public class DouDiZhu2 {
         for (Integer i : list) {
             System.out.print(map.get(i) + '\t');
         }
-        System.out.println("");
+        System.out.println();
     }
 }
