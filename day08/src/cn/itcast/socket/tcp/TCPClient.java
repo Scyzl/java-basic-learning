@@ -1,4 +1,4 @@
-package cn.itcast.socket;
+package cn.itcast.socket.tcp;
 
 import java.io.IOException;
 import java.io.InputStream;
