@@ -1,3 +1,6 @@
 /day07/day07.iml
 /Bug.txt
 /*/day*.iml
+/day*/libs
+*.properties
+*.xml
